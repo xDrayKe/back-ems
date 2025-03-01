@@ -1,0 +1,129 @@
+faire la docs swagger (flm)
+
+regler les api
+faire la mise en place
+
+
+test 
+
+
+
+employees (localhost:3000/employees)
+getall : ok
+post : ok
+{
+    "prenom": "F",
+    "nom": "Doe",
+    "matricule": "1234567",
+    "dateArriver": "2025-02-09T08:00:00Z",
+    "carteIdentite": "123456789",
+    "discordID": "johnDoe#1234"
+}
+getbyid : ok
+patch : ok
+{
+    "prenom": "F",
+    "nom": "Doe",
+    "matricule": "1234567",
+    "dateArriver": "2025-02-09T08:00:00Z",
+    "carteIdentite": "123456789",
+    "discordID": "johnDoe#1234"
+}
+delete : ok
+
+
+blames 
+getall : ok 
+post : ok
+{
+    "raison": "test",
+    "emis_par": "1",
+    "pour_qui": "4",
+    "date_creation": "2025-02-09T08:00:00Z"
+}
+getbyid : ok
+patch : ok
+{
+    "raison": "test",
+    "emis_par": "4",
+    "pour_qui": "1",
+    "date_creation": "2025-02-09T08:00:00Z"
+}
+delete : ok 
+
+
+absence
+getall : ok
+post : ok
+{
+    "employee_id": "1",
+    "raison": "test",
+    "dateDebut": "2025-02-09T08:00:00",
+    "dateFin": "2025-02-09T08:00:00"
+}
+getbyid : ok
+patch : ok
+{
+    "employee_id": "1",
+    "raison": "test2",
+    "dateDebut": "2025-02-09T08:00:00",
+    "dateFin": "2025-02-09T08:00:00"
+}
+delete : ok
+
+
+permis : 
+getall : ok
+post : ok
+{
+    "description": "bateau2"
+}
+getbyid : ok
+patch : ok
+{
+    "id":4,
+    "description": "bateau2"
+}
+delete : ok
+
+
+employeePermis
+post : ok
+{
+    "employee_id": 1,
+    "permis_id": 2
+}
+getbyid : ok
+
+
+employeeGrade
+getall : 
+post : 
+getbyid : 
+patch : 
+delete : 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Il reste : 
+ajouter le system de pointeuse avec
+ajouter
+modifier
+
+
+ajouter le systempe de primes (pour les pointeuse par rapport au grade)
+
+ajouter un systeme de roles (gerer les different roles dans la pointeuse)
+
+ajouter 
