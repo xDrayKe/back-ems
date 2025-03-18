@@ -13,7 +13,7 @@ import employeePermisRoutes from './src/pkg/employeePermis/route.js';
 
 const swaggerDocument = YAML.load('./swagger.yaml');
 const app = express();
-const port = 3000;
+const port = 3005;
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
